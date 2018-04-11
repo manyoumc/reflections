@@ -1,20 +1,28 @@
 What happens when you initialize a repository? Why do you need to do it?
-git creates the meta files
+Git creates the meta files (.git folder) by initializing a new repository.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-staging area is a stage between both, it helps organising the commits
+The staging area allows the user to preselect which files are going to be commited
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can view the exact changes that have been staged by using the command 'git diff --staged'.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+For example: adding a new experimental feature, making an italian version of your game
+Branches let you experiment with new features or versions while always keeping your stable/official version.
+(stable branch <-> beta branch)
 
 How do the diagrams help you visualize the branch structure?
+You get an overview about existing branches and relations between commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merge 2 branches (and their changes) together in one branch. Visualisation.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+automatic: easier but possible mistakes
+manual: more effort but more safe
