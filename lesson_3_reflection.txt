@@ -30,7 +30,9 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would make changes in a seperate branch to not "destroy" master if I add bad changes and to give the owner/other 
+	collaborators the chance to review my changes.
+	mor complicated but safer and better way of collaborating
 
 	
 Other Notes:
