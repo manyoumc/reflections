@@ -18,7 +18,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    You can compare it with your local state (git diff) and see what changes are going to be pushed/pulled
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
@@ -29,3 +29,17 @@ When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
     Fill in your answer here
+
+	
+Other Notes:
+
+git fetch +	git merge =	git pull
+
+Overview about different "locations":
+working directory
+staging area
+Git Local Repository
+Pointer to last known state of remote(origin/master) 
+Github Remote Repository
+
+
